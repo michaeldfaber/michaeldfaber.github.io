@@ -1,3 +1,22 @@
+# About
+
+My personal website for sharing information about myself and showcasing things that I've built.
+
+# Deploy to Github Pages
+
+Switch to branch `gh-pages` and merge desired changes.
+
+Run `npm run deploy`
+
+# Design
+
+## Colors
+Charcoal `#2E4057`  
+Blue Munsell `#048BA8`  
+Carrot Orange `#F18F01` 
+
+# Auto Generated
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -42,9 +61,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-# Deploy to Github Pages
-
-Switch to branch `gh-pages` and merge desired changes.
-
-Run `npm run deploy`
