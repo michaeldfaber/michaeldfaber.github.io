@@ -1,0 +1,25 @@
+.greeting-container {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: #cef5fd;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.greeting-heading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 100px;
+    color: #2E4057;
+    margin-bottom: 20px;
+}
+
+.greeting-subheading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    color: #2E4057;
+    margin-bottom: 20px;
+}
