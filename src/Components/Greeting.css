@@ -1,19 +1,33 @@
-.greeting-container {
-    border-radius: 25px;
-    margin-top: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
-    background: #cef5fd;
-    padding-top: 20px;
-    padding-bottom: 200px;
+.greeting {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .greeting {
+        max-width: 1200px;
+    }
+}
+
+.greeting-photo {
+    margin: auto;
+    display: block;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
 }
 
 .greeting-heading {
     text-align: center;
     font-weight: 300;
-    font-size: 100px;
+    font-size: 80px;
     color: #2E4057;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .greeting-heading {
+        font-size: 50px;
+    }
 }
 
 .greeting-subheading {
@@ -22,4 +36,11 @@
     font-size: 30px;
     color: #2E4057;
     margin-bottom: 20px;
+}
+
+.greeting-body {
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    color: #2E4057;
 }
