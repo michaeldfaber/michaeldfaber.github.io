@@ -1,0 +1,44 @@
+.timeline {
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+    .timeline-body {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .timeline-heading {
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .timeline {
+        max-width: 1200px;
+    }
+}
+
+.timeline-heading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: #2E4057;
+    margin-bottom: 20px;
+}
+
+.timeline-body {
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2E4057;
+}
+
+.timeline-body a {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: #80381a;
+    text-decoration: none;
+}
