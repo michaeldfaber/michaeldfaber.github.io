@@ -27,13 +27,12 @@ export class Timeline extends Component {
             <div>
                 <p>Creating a portfolio paid off and I started an internship at Assurity Life Insurance Company. I learned the ins and outs of life working in software. I met a lot of people that had a big impact on me.</p>
                 <p>I built websites for internal use with Angular, and built Web APIs using .NET Core and Microsoft SQL Server.</p>
-                <p>I spoke at some of my University's events about my internship and internships in general.</p>
-                <p>The developers there exposed me to developer meetups. I really fell in love with those. I still try to find and go to as many as I can.</p>
+                <p>I spoke at some of my University's events about my internship and internships in general. My team also encouraged me to attend developer meetups.</p>
             </div>
         const fifthBody =
             <div>
                 <p>I graduated from the University of Nebraska Lincoln, and Assurity offered me a position as a Software Developer I, which I accepted. I became a Software Developer II a bit over a year later but wasn't in that role for long.</p>
-                <p>I was the tech lead for the project the new interns worked on. We made a wrapper API for DocuSign. It was a lot of fun. I can't stress enough how valuable I think internships are.</p>
+                <p>I was the tech lead for the project the new interns worked on. We made a wrapper API for DocuSign.</p>
                 <p>It was cool to contribute to Assurity's "insurance as a service" vision and watch it grow. They have a set of APIs vendors can hit to create an insurance policy start to finish. That's what I mostly worked on.</p>
             </div>
         const sixthBody = 
