@@ -1,5 +1,5 @@
 export type TimelineElementProps = {
+    title: any;
     imagePath: any;
-    title: string;
     body: any;
 }

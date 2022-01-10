@@ -48,7 +48,15 @@
     font-weight: 300;
     font-size: 30px;
     color: #80381a;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.timeline-left-heading p {
+    margin: 0;
+}
+
+.timeline-title-subheading {
+    font-size: 20px;
 }
 
 .timeline-left-photo {

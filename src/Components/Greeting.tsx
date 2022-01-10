@@ -14,8 +14,8 @@ export class Greeting extends Component {
                 </div>
                 <div className="greeting-body">
                     <p>Software and DevOps Engineer with over 5 years of experience.</p>
-                    <p>I love developing web applications, speeding up the process of developing web applications, 
-                        and making web applications more secure. I created this website to showcase my life and career. 
+                    <p>I love building things, speeding up the process of building things, 
+                        and making sure tools are secure. I created this website to showcase my life and career. 
                         If you'd like to see what makes this website tick, along with my other personal projects, you can checkout my
                         <a href="https://github.com/michaeldfaber"> GitHub</a>. </p>
                 </div>
