@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Navbar } from '../Components/Navbar';
-import { Greeting } from '../Components/Greeting';
-import { Timeline } from '../Components/Timeline';
+import { Navbar } from '../Components/Navbar/Navbar';
+import { Greeting } from '../Components/Greeting/Greeting';
+import { Timeline } from '../Components/Timeline/Timeline';
 
 export class Home extends Component {
     render() {

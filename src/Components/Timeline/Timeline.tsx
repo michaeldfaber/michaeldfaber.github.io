@@ -102,37 +102,37 @@ export class Timeline extends Component {
                     <TimelineLeft
                         title={firstTitle}
                         body={firstBody}
-                        imagePath={require('../Photos/minecraft.jpg')}
+                        imagePath={require('../../Photos/minecraft.jpg')}
                     />
                     <TimelineRight
                         title={secondTitle}
                         body={secondBody}
-                        imagePath={require('../Photos/unl.png')}
+                        imagePath={require('../../Photos/unl.png')}
                     />
                     <TimelineLeft
                         title={thirdTitle}
                         body={thirdBody}
-                        imagePath={require('../Photos/jquery.jpeg')}
+                        imagePath={require('../../Photos/jquery.jpeg')}
                     />
                     <TimelineRight
                         title={fourthTitle}
                         body={fourthBody}
-                        imagePath={require('../Photos/assurity.png')}
+                        imagePath={require('../../Photos/assurity.png')}
                     />
                     <TimelineLeft
                         title={fifthTitle}
                         body={fifthBody}
-                        imagePath={require('../Photos/graduation.jpeg')}
+                        imagePath={require('../../Photos/graduation.jpeg')}
                     />
                     <TimelineRight
                         title={sixthTitle}
                         body={sixthBody}
-                        imagePath={require('../Photos/marketing.png')}
+                        imagePath={require('../../Photos/marketing.png')}
                     />
                     <TimelineLeft
                         title={seventhTitle}
                         body={seventhBody}
-                        imagePath={require('../Photos/phreesia.png')}
+                        imagePath={require('../../Photos/phreesia.png')}
                     />
                 </div>
             </div>

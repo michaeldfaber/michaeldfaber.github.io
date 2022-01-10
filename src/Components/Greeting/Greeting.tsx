@@ -5,7 +5,7 @@ export class Greeting extends Component {
     render() {
         return (
             <div className="greeting">
-                <img className="greeting-photo" src={require('../Photos/me.jpg')} />
+                <img className="greeting-photo" src={require('../../Photos/me.jpg')} />
                 <div className="greeting-heading">
                     Greetings!
                 </div>

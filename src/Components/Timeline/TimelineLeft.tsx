@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './TimelineLeft.css';
-import { TimelineElementProps } from './TimelineElementProps';
+import { TimelineElementProps } from '../../Types/TimelineElementProps';
 
 export class TimelineLeft extends Component<TimelineElementProps, any> {
     render() {
