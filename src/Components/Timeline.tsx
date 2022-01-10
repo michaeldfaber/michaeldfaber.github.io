@@ -55,7 +55,7 @@ export class Timeline extends Component {
                     My Career
                 </div>
                 <div className="timeline-body">
-                    <p>If you'd like a short, succinct summary of my career and all of the tools I've used, you can check out my <a href="https://google.com/">resume</a>.</p>
+                    <p>If you'd like a short, succinct summary of my career and all of the tools I've used, you can check out my <a href="https://raw.githubusercontent.com/michaeldfaber/michaeldfaber.github.io/master/Resume.pdf">resume</a>.</p>
                     <p>I've also created this timeline to visualize my history with software and wax poetic a little bit.</p>
                 </div>
                 <div className="timeline-elements">
