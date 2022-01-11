@@ -14,9 +14,6 @@ export class Skills extends Component {
                 <div className="skills-cards-container">
                     {/* First Row */}
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/csharp.png')} />
-                    </div>
-                    <div className="skills-card">
                         <img className="skills-photo" src={require('../../Photos/Skills/js.png')} />
                     </div>
                     <div className="skills-card">
@@ -25,15 +22,41 @@ export class Skills extends Component {
                     <div className="skills-card">
                         <img className="skills-photo" src={require('../../Photos/Skills/python.png')} />
                     </div>
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/csharp.png')} />
+                    </div>
 
-                    {/* TODO more rows */}
-                </div>
+                    <div className="skills-card-line"></div>
 
-                <div className="skills-mobile-list">
-                    <p>C#</p>
-                    <p>JavaScript</p>
-                    <p>TypeScript</p>
-                    <p>Python</p>
+                    {/* Second Row */}
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/vuejs.png')} />
+                    </div>
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/react.png')} />
+                    </div>
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/aws.png')} />
+                    </div>
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/dotnetcore.png')} />
+                    </div>
+
+                    <div className="skills-card-line"></div>
+
+                    {/* Third Row */}
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/css.png')} />
+                    </div>
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/nodejs.png')} />
+                    </div>
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/serverless.png')} />
+                    </div>
+                    <div className="skills-card">
+                        <img className="skills-photo" src={require('../../Photos/Skills/mssql.png')} />
+                    </div>
                 </div>
             </div>
         );
