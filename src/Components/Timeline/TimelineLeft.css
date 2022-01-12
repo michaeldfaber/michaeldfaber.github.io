@@ -2,7 +2,11 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 599px) {
+    .timeline-left-heading p {
+        padding: 0px 20px 0px 20px;
+    }
+
     .timeline-left-image {
         margin: 0 auto;
         padding-top: 20px !important;
@@ -20,6 +24,36 @@
         width: 300px !important;
         object-fit: scale-down !important;
         border-radius: 6px !important;
+    }
+
+    .timeline-left-line-container {
+        display: none !important;
+    }
+
+    .timeline-left-body-container {
+        padding-top: 20px !important;
+        height: 100% !important;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .timeline-left-body {
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+    .timeline-left-image {
+        margin: 0 auto;
+        padding-top: 20px !important;
+        width: 100% !important;
+        
+    }
+
+    .timeline-left-photo-container {
+        margin: 0 auto;
+        width: 100% !important;
+        text-align: center;
     }
 
     .timeline-left-line-container {

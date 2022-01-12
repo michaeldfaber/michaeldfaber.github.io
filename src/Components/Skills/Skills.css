@@ -3,7 +3,20 @@
     padding-bottom: 30px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 599px) {
+    .skills-heading {
+        font-size: 30px !important;
+    }
+    
+    .skills-photo {
+        object-fit: fill !important;
+        height: 75px !important;
+        width: 75px !important;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1280px) {
     .skills-heading {
         font-size: 30px !important;
     }
