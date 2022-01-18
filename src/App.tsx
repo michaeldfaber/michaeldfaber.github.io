@@ -7,6 +7,7 @@ import {
 
 import { Home } from './Pages/Home';
 import { GoogleCharts } from './Pages/GoogleCharts';
+import { JQueryPlugins } from './Pages/JQueryPlugins';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/google-charts' component={GoogleCharts} />
+          <Route exact path='/jquery-plugins' component={JQueryPlugins} />
         </Switch>
       </div>
     </Router>
