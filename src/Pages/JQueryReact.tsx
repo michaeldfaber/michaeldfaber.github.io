@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Navbar } from '../Components/Navbar/Navbar';
-import { SimpleSlideShow } from '../Components/JQueryPlugins/SimpleSlideShow/SimpleSlideShow';
+import { JQueryPlugins } from '../Components/JQueryPlugins/JQueryPlugins';
 
-export class JQueryPlugins extends Component {
+export class JQueryReact extends Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <SimpleSlideShow />
+                <JQueryPlugins />
             </div>
         );
     }

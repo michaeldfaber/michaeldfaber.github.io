@@ -1,0 +1,48 @@
+.jquery-plugins {
+    margin: auto auto 100px auto;
+}
+
+.jquery-plugins-heading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 100px;
+    color: #2E4057;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.jquery-plugins-subheading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: #2E4057;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.jquery-plugins-body {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2E4057;
+    margin: 50px auto 50px auto;
+    max-width: 800px;
+}
+
+.simple-slide-show {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+code {
+    color: #80381a;
+}
+
+.jquery-plugins-react-example-code {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+}
