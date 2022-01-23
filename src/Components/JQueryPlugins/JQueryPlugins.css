@@ -29,12 +29,31 @@
     max-width: 800px;
 }
 
+.jquery-plugins-body a {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: #80381a;
+    text-decoration: none;
+}
+
 .simple-slide-show {
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     height: 200px;
+}
+
+.textbanner {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+    font-size: 40px;
+    color: #2E4057;
 }
 
 code {

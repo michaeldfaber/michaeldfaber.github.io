@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './JQueryPlugins.css'
 import { SimpleSlideShow } from './SimpleSlideShow';
+import { Textbanner } from './Textbanner';
 
 export class JQueryPlugins extends Component {
     render() {
@@ -12,7 +13,7 @@ export class JQueryPlugins extends Component {
                     <SimpleSlideShow />
                 </div>
                 <div className="jquery-plugins-body">
-                    <p>The first jQuery plugin I ever created. A simple slide show, hence the name.</p>
+                    <p>The first jQuery plugin I ever created. A simple slide show, hence the name. Check out the code for it <a href="https://github.com/michaeldfaber/simpleSlideShow">here</a>.</p>
                     <p>Customizable, and easy to add to your project. I don't honestly recommend mixing jQuery and React, but here's what the component I used to get it working here looks like:</p>
                 </div>
                 <div className="jquery-plugins-react-example-code">
@@ -50,6 +51,35 @@ export class JQueryPlugins extends Component {
                         <br />
                         &emsp;&emsp;render() &#123;<br />
                         &emsp;&emsp;&emsp;&emsp;return &#60;div ref=&#123;el =&#62; this.el = el&#125; /&#62;;<br />
+                        &emsp;&emsp;&#125;<br />
+                        &#125;<br />
+                    </code>
+                </div>
+                <br />
+                <div className='textbanner'>
+                    <Textbanner />
+                </div>
+                <div className="jquery-plugins-body">
+                    <p>The second jQuery plugin I ever created. I was really happy I was able to get this one to work. I still think this one is really neat. Check out the code for it <a href="https://github.com/michaeldfaber/textbanner">here</a>.</p>
+                    <p>Here's what the component I used to get it working here looks like:</p>
+                </div>
+                <div className="jquery-plugins-react-example-code">
+                    <code>
+                        import React, &#123; Component &#125; from 'react';<br />
+                        import $ from 'jquery';<br />
+                        import 'textbanner';<br />
+                        <br />
+                        export class Textbanner extends Component&#60;unknown, any&#62; &#123;<br />
+                        &emsp;&emsp;el: any = undefined;<br />
+                        &emsp;&emsp;$el: any = undefined;<br />
+                        <br />
+                        &emsp;&emsp;componentDidMount() &#123;<br />
+                        &emsp;&emsp;&emsp;&emsp;this.$el = $(this.el);<br />
+                        &emsp;&emsp;&emsp;&emsp;this.$el.textbanner();<br />
+                        &emsp;&emsp;&#125;<br />
+                        <br />
+                        &emsp;&emsp;render() &#123;<br />
+                        &emsp;&emsp;&emsp;&emsp;return &#60;div id="textbanner" ref=&#123;el =&#62; this.el = el&#125;&#62;textbanner&#60;/div&#62;;<br />
                         &emsp;&emsp;&#125;<br />
                         &#125;<br />
                     </code>
