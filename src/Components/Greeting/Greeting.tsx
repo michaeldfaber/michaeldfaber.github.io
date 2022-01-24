@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Greeting.css'
+import './Greeting.css';
 
 export class Greeting extends Component {
     render() {
@@ -15,7 +15,7 @@ export class Greeting extends Component {
                 <div className="greeting-body">
                     <p>Software and DevOps Engineer with over 5 years of experience.</p>
                     <p>I love building things, speeding up the process of building things, and making sure tools are secure.
-                        If you'd like to see how I've done that over the course of my career, you can checkout my <a href="https://github.com/michaeldfaber/michaeldfaber.github.io/blob/master/Resume.pdf">resume</a>.
+                        If you'd like to see how I've done that over the course of my career, you can checkout my <a href={require('../../Resume.pdf')} target="_blank">resume</a>.
                     </p>
                     <p>
                         If you'd like to see what makes this website tick, along with my other personal projects, you can checkout my <a href="https://github.com/michaeldfaber"> GitHub</a>.
