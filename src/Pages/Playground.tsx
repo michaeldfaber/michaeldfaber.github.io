@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar } from '../Components/Navbar/Navbar';
-import { ColorGrid } from '../Components/Colors/ColorGrid';
+import { Navbar } from '../Components/Layout/Navbar';
+import { ColorGrid } from '../Components/Playground/Colors/ColorGrid';
 
-export class Colors extends Component {
+export class Playground extends Component {
     render() {
         return (
             <div>
