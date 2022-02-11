@@ -9,6 +9,8 @@
 
 .color-grid-container {
     margin: 0 auto;
+    font-size: 0px;
+    line-height: 0px;
     height: 600px;
     width: 600px;
 }
