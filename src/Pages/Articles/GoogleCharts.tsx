@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './../../Styles/GoogleCharts.css';
+import './../../Styles/Articles/GoogleCharts.css';
 import { Chart } from "react-google-charts";
 
 export class GoogleCharts extends Component {

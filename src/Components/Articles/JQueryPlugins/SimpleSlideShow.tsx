@@ -13,18 +13,18 @@ export class SimpleSlideShow extends Component<unknown, any> {
             transition: 2,
             urls:
             [
-                require('../../Photos/Skills/aws.png'),
-                require('../../Photos/Skills/csharp.png'),
-                require('../../Photos/Skills/css.png'),
-                require('../../Photos/Skills/dotnetcore.png'),
-                require('../../Photos/Skills/js.png'),
-                require('../../Photos/Skills/mssql.png'),
-                require('../../Photos/Skills/nodejs.png'),
-                require('../../Photos/Skills/python.png'),
-                require('../../Photos/Skills/react.png'),
-                require('../../Photos/Skills/serverless.png'),
-                require('../../Photos/Skills/ts.png'),
-                require('../../Photos/Skills/vuejs.png'),
+                require('../../../Photos/Skills/aws.png'),
+                require('../../../Photos/Skills/csharp.png'),
+                require('../../../Photos/Skills/css.png'),
+                require('../../../Photos/Skills/dotnetcore.png'),
+                require('../../../Photos/Skills/js.png'),
+                require('../../../Photos/Skills/mssql.png'),
+                require('../../../Photos/Skills/nodejs.png'),
+                require('../../../Photos/Skills/python.png'),
+                require('../../../Photos/Skills/react.png'),
+                require('../../../Photos/Skills/serverless.png'),
+                require('../../../Photos/Skills/ts.png'),
+                require('../../../Photos/Skills/vuejs.png'),
             ]
         });
     }

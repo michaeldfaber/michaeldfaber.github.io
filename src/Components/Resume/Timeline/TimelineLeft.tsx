@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './TimelineLeft.css';
+import './../../../Styles/Resume/Timeline/TimelineLeft.css';
 import { TimelineElementProps } from '../../../Types/TimelineElementProps';
 
 export class TimelineLeft extends Component<TimelineElementProps, any> {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './JQueryPlugins.css'
+import './../../Styles/Articles/JQueryPlugins.css';
 import { SimpleSlideShow } from './../../Components/Articles/JQueryPlugins/SimpleSlideShow';
 import { Textbanner } from './../../Components/Articles/JQueryPlugins/Textbanner';
 

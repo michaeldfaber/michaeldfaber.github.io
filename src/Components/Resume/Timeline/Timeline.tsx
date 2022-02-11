@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Timeline.css'
+import './../../../Styles/Resume/Timeline/Timeline.css'
 import { TimelineLeft } from './TimelineLeft';
 import { TimelineRight } from './TimelineRight';
 
@@ -101,37 +101,37 @@ export class Timeline extends Component {
                     <TimelineLeft
                         title={firstTitle}
                         body={firstBody}
-                        imagePath={require('../../Photos/Timeline/minecraft.jpg')}
+                        imagePath={require('../../../Photos/Timeline/minecraft.jpg')}
                     />
                     <TimelineRight
                         title={secondTitle}
                         body={secondBody}
-                        imagePath={require('../../Photos/Timeline/unl.png')}
+                        imagePath={require('../../../Photos/Timeline/unl.png')}
                     />
                     <TimelineLeft
                         title={thirdTitle}
                         body={thirdBody}
-                        imagePath={require('../../Photos/Timeline/jquery.jpeg')}
+                        imagePath={require('../../../Photos/Timeline/jquery.jpeg')}
                     />
                     <TimelineRight
                         title={fourthTitle}
                         body={fourthBody}
-                        imagePath={require('../../Photos/Timeline/assurity.png')}
+                        imagePath={require('../../../Photos/Timeline/assurity.png')}
                     />
                     <TimelineLeft
                         title={fifthTitle}
                         body={fifthBody}
-                        imagePath={require('../../Photos/Timeline/graduation.jpeg')}
+                        imagePath={require('../../../Photos/Timeline/graduation.jpeg')}
                     />
                     <TimelineRight
                         title={sixthTitle}
                         body={sixthBody}
-                        imagePath={require('../../Photos/Timeline/marketing.png')}
+                        imagePath={require('../../../Photos/Timeline/marketing.png')}
                     />
                     <TimelineLeft
                         title={seventhTitle}
                         body={seventhBody}
-                        imagePath={require('../../Photos/Timeline/phreesia.png')}
+                        imagePath={require('../../../Photos/Timeline/phreesia.png')}
                     />
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Skills.css'
+import './../../../Styles/Resume/Skills/Skills.css';
 
 export class Skills extends Component {
     render() {
@@ -14,48 +14,48 @@ export class Skills extends Component {
                 <div className="skills-cards-container">
                     {/* First Row */}
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/js.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/js.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/ts.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/ts.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/python.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/python.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/csharp.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/csharp.png')} />
                     </div>
 
                     <div className="skills-card-line"></div>
 
                     {/* Second Row */}
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/vuejs.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/vuejs.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/react.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/react.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/aws.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/aws.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/dotnetcore.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/dotnetcore.png')} />
                     </div>
 
                     <div className="skills-card-line"></div>
 
                     {/* Third Row */}
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/css.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/css.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/nodejs.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/nodejs.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/serverless.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/serverless.png')} />
                     </div>
                     <div className="skills-card">
-                        <img className="skills-photo" src={require('../../Photos/Skills/mssql.png')} />
+                        <img className="skills-photo" src={require('../../../Photos/Skills/mssql.png')} />
                     </div>
                 </div>
             </div>
