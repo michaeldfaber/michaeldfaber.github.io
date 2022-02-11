@@ -8,6 +8,7 @@ import {
 import { Home } from './Pages/Home';
 import { GoogleCharts } from './Pages/GoogleCharts';
 import { JQueryReact } from './Pages/JQueryReact';
+import { Colors } from './Pages/Colors';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/google-charts' component={GoogleCharts} />
           <Route exact path='/jquery-react' component={JQueryReact} />
+          <Route exact path='/colors' component={Colors} />
         </Switch>
       </div>
     </Router>
