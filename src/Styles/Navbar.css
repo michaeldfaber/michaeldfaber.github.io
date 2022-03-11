@@ -1,12 +1,21 @@
-@media screen and (max-width: 1280px) {
-    .navbar {
-        padding-left: 20px;
+@media screen and (max-width: 1200px) {
+    .navbar-link {
+        margin-top: 20px;
+        display: block;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1201px) {
     .navbar-links-container {
         max-width: 1200px;
+    }
+
+    .navbar-link {
+        display: inline-block;
+    }
+
+    .navbar-hamburger {
+        display: none;
     }
 }
 
@@ -18,16 +27,26 @@
 
 .navbar-links-container {
     margin: 0 auto;
+    padding-left: 20px;
 }
 
 .navbar-link {
-    display: inline-block;
     margin-right: 40px;
 }
 
 .navbar-link a {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.navbar-hamburger {
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 40px;
     color: var(--white);
     text-decoration: none;
 }
