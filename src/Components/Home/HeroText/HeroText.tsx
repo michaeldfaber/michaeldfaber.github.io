@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { HeroLinkProps } from '../../../Types/HeroLinkProps';
-import "../../../Styles/Home/HeroLink/HeroLinkLeft.css";
+import { HeroTextProps } from '../../../Types/HeroTextProps';
+import "../../../Styles/Home/HeroText/HeroText.css";
 
-export class HeroLinkLeft extends Component<HeroLinkProps, any> {
+export class HeroText extends Component<HeroTextProps, any> {
     render() {
         return (
             <div className="hero-link-left">

@@ -1,4 +1,4 @@
-export type HeroLinkProps = {
+export type HeroTextProps = {
     title?: any;
     imagePath?: any;
     link?: any;
