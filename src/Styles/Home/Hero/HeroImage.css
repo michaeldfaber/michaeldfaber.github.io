@@ -1,0 +1,11 @@
+.hero-image {
+    height: 500px;
+    width: 100%;
+    background-color: var(--dark-blue);
+}
+
+.hero-image-img {
+    object-fit: cover !important;
+    height: 500px;
+    width: 100%;
+}

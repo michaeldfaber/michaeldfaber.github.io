@@ -39,7 +39,6 @@
 }
 
 .big-heading-white {
-    text-align: center;
     font-weight: 300;
     color: var(--white);
     margin-top: 30px;
@@ -47,7 +46,6 @@
 }
 
 .heading-white {
-    text-align: center;
     font-weight: 300;
     color: var(--white);
     margin-top: 30px;
@@ -55,7 +53,6 @@
 }
 
 .sub-heading-white {
-    text-align: center;
     font-weight: 300;
     color: var(--white);
     margin-bottom: 30px;

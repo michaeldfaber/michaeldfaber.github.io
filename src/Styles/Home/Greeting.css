@@ -1,26 +1,44 @@
 .greeting {
     margin: 0 auto;
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
-@media screen and (max-width: 1280px) {
-    .greeting-heading {
-        font-size: 40px !important;
-        margin-top: 20px;
+.greeting-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .greeting-photo, .greeting-text {
+        width: 100%;
     }
 
-    .greeting-subheading {
-        font-size: 30px !important;
-    }
-
-    .greeting-body {
-        padding: 0px 20px 0px 20px;
+    .greeting-text {
+        text-align: center;
     }
 }
 
-@media screen and (min-width: 1280px) {
-    .greeting {
-        max-width: 1200px;
+@media screen and (min-width: 1201px) {
+    .greeting-photo, .greeting-text {
+        width: 50%;
+        max-width: 600px;
     }
+
+    .greeting-text {
+        text-align: left;
+    }
+}
+
+.greeting-photo {
+    margin: 0 auto;
+    height: 100%;
+    display: inline-block;
+}
+
+.greeting-text {
+    margin: 0 auto;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
 }
