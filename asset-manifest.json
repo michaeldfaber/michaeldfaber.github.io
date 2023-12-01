@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.714efe04.css",
+    "main.js": "/static/js/main.fef1e2b2.js",
+    "static/media/marketing.png": "/static/media/marketing.9f8c47a36c51e700d0ac.png",
+    "static/media/minecraft.jpg": "/static/media/minecraft.8f8793935c53159d44a4.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.f4dbfd810240ddcdd558.pdf",
+    "static/media/unl.png": "/static/media/unl.67c955eb4cc76b718fa5.png",
+    "static/media/aws.png": "/static/media/aws.8a4b1f1f184df3a93123.png",
+    "static/media/me.jpg": "/static/media/me.720408087247d205fdd1.jpg",
+    "static/media/phreesia.png": "/static/media/phreesia.db2aee3137275db73587.png",
+    "static/media/react.png": "/static/media/react.deae733131e35ea5e8f3.png",
+    "static/media/mssql.png": "/static/media/mssql.84ec8bcd245c8c28cfb0.png",
+    "static/media/jquery.jpeg": "/static/media/jquery.c169b8ad96b053ea37de.jpeg",
+    "static/media/python.png": "/static/media/python.035918045ccdc7a8ce88.png",
+    "static/media/dotnetcore.png": "/static/media/dotnetcore.2191ef31a47a1f95d765.png",
+    "static/media/css.png": "/static/media/css.166f436b7df1f1aa723c.png",
+    "static/media/csharp.png": "/static/media/csharp.25bc1eefabfe73e2d782.png",
+    "static/media/graduation.jpeg": "/static/media/graduation.76ee836dac95f6c3c60e.jpeg",
+    "static/media/nodejs.png": "/static/media/nodejs.632239b8ae36fd7c2be6.png",
+    "static/media/js.png": "/static/media/js.9a20eb14074b937b7bc9.png",
+    "static/media/vuejs.png": "/static/media/vuejs.d66629b6f412162b783f.png",
+    "static/media/serverless.png": "/static/media/serverless.c5f9fe3ba5b87cccc767.png",
+    "static/media/ts.png": "/static/media/ts.3237bf2890d875368e3a.png",
+    "index.html": "/index.html",
+    "main.714efe04.css.map": "/static/css/main.714efe04.css.map",
+    "main.fef1e2b2.js.map": "/static/js/main.fef1e2b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.714efe04.css",
+    "static/js/main.fef1e2b2.js"
+  ]
+}
