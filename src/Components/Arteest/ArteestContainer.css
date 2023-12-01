@@ -1,0 +1,133 @@
+.heading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: #2E4057;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.canvas-container {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 0 20%;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.to-guess {
+    height: 305px;
+    width: 100%;
+}
+
+.user-color {
+    height: 200px;
+    width: 99.5%;
+    border: 1px solid black;
+}
+
+.user-palette {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.white {
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    background: white;
+}
+
+.black {
+    background: black;
+    border: none;
+}
+
+.red {
+    background: red;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+}
+
+.green {
+    background: green;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+}
+
+.blue {
+    background: blue;
+    border-top: none;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: none;
+}
+
+.white, .black, .red, .green, .blue {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    padding: 9px;
+    cursor: pointer;
+    border: #2E4057 solid 1px;
+    background: none;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2E4057;
+    text-decoration: none;
+}
+
+.user-slider-label {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E4057;
+}
+
+.user-slider {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 99%;
+    border-radius: 4px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.8;
+}
+
+.user-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+  
+.user-slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
+.score {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: #2E4057;
+}
