@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import * as cd from 'color-diff';
 import { Color } from '../../Types/Arteest';
 
 import './ArteestContainer.css';
@@ -32,7 +33,7 @@ export class ArteestContainer extends Component<unknown, ArtesstState> {
         this.blue = this.blue.bind(this);
 
         this.powerChange = this.powerChange.bind(this);
-        this.finish = this.finish.bind(this);
+        this.buttonClick = this.buttonClick.bind(this);
         this.getScore = this.getScore.bind(this);
     }
 
@@ -70,7 +71,7 @@ export class ArteestContainer extends Component<unknown, ArtesstState> {
         this.setState({ power: event.target.value });
     }
 
-    public finish(): void {
+    public buttonClick(): void {
         if (!this.scored) this.getScore();
         else this.playAgain();
     }
@@ -78,21 +79,16 @@ export class ArteestContainer extends Component<unknown, ArtesstState> {
     private getScore(): void {
         this.scored = true;
 
-        let rScore: number = 0;
-        if (this.state.userColor.r < this.toGuess.r) rScore = this.state.userColor.r / this.toGuess.r;
-        else rScore = this.toGuess.r / this.state.userColor.r;
+        const user = { R: this.state.userColor.r, G: this.state.userColor.g, B: this.state.userColor.b };
+        const toGuess = { R: this.toGuess.r, G: this.toGuess.g, B: this.toGuess.b };
 
-        let gScore: number = 0;
-        if (this.state.userColor.g < this.toGuess.g) gScore = this.state.userColor.g / this.toGuess.g;
-        else gScore = this.toGuess.g / this.state.userColor.g;
+        const userLab = cd.rgb_to_lab(user);
+        const toGuessLab = cd.rgb_to_lab(toGuess);
 
-        let bScore: number = 0;
-        if (this.state.userColor.b < this.toGuess.b) bScore = this.state.userColor.b / this.toGuess.b;
-        else bScore = this.toGuess.b / this.state.userColor.b;
+        const deltaE = cd.diff(userLab, toGuessLab);
+        const similar = Math.round((100 - deltaE) * 100) / 100;
 
-        let score = Math.round(((rScore + gScore + bScore) / 3) * 100000) / 1000;
-
-        this.setState({ buttonText: 'Play Again', score: `${score}%` });
+        this.setState({ buttonText: 'Play Again', score: `${similar}%` });
     }
 
     public playAgain(): void {
@@ -132,7 +128,7 @@ export class ArteestContainer extends Component<unknown, ArtesstState> {
                         </input>
                     </div>
                 </div>
-                <button className="submit" onClick={this.finish}>{this.state.buttonText}</button>
+                <button className="submit" onClick={this.buttonClick}>{this.state.buttonText}</button>
                 <div className="score">{this.state.score}</div>
             </div>
         );
