@@ -4,16 +4,16 @@
     font-size: 40px;
     color: #2E4057;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .canvas-container {
     display: flex;
     flex-direction: row;
     gap: 60px;
-    padding: 0 20%;
+    padding: 0 15%;
     margin-bottom: 30px;
-    width: 60%;
+    width: 70%;
 }
 
 .to-guess {
@@ -85,14 +85,14 @@
     border: #2E4057 solid 1px;
     background: none;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 14px;
     color: #2E4057;
     text-decoration: none;
 }
 
 .user-slider-label {
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
     color: #2E4057;
 }
 
